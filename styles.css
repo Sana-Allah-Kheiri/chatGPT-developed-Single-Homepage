@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f9fafb;
+  color: #1e293b;
+}
+
+header.hero {
+  background: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header .overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.cta-btn {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #1d4ed8;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.alt {
+  background: #e2e8f0;
+}
+
+.features {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.ceo {
+  background: #1e293b;
+  color: white;
+}
+
+.counter-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.counter-grid div span {
+  font-size: 2.5rem;
+  display: block;
+  font-weight: bold;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  color: #555;
+}
+
+.social-icons a {
+  font-size: 2rem;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer {
+  background: #1e293b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
